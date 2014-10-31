@@ -1,8 +1,33 @@
 body{
     margin: 0px;
     padding: 0px;
+    border: black solid 3px;
 }
 
 #game-screen{
     display: block;
 }
+
+.jumbotron{
+    padding-top: 0px; 
+    text-align: center;
+    text-shadow: 4px 4px 4px purple;
+    font-family: 'Play', sans-serif;
+}
+
+
+#scoreboard {
+    margin: 0px;
+    border: 2px solid white;
+    border-radius: 10px;
+    position: absolute;
+    font-family: 'Play', sans-serif;
+}
+
+#gameover {
+    position: absolute;
+    visibility: hidden; 
+
+    h1, h2{
+        font-family: 'Play', sans-serif;
+    }
