@@ -54,7 +54,7 @@ function gameDraw() {
 
 function snakeInitialize() {
     snake = [];
-    snakeLength = 1;
+    snakeLength = 40;
     snakeSize = 10;
     snakeDirection = "down";
 

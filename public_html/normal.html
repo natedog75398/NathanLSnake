@@ -10,7 +10,7 @@
         <section id="PLAYHUD">
         <h2 id="scoreboard"></h2>
         </section>
-        <canvas id="game-screen"></canvas>
+        <canvas id="game-screen"></canvas> 
         <script type="text/javascript">
 var snake;
 var snakeLength;      
@@ -29,7 +29,7 @@ var scoreboard;
 gameInitialize();
 snakeInitialize();
 foodInitialize(); 
-setInterval(gameLoop, 20); 
+setInterval(gameLoop, 20);  
 
 
 function gameInitialize() {
@@ -68,8 +68,8 @@ function gameInitialize() {
 
     function snakeInitialize() {
         snake = [];
-        snakeLength = 1;
-        snakeSize = 17;
+        snakeLength = 40;
+        snakeSize = 20;
         snakeDirection = "down";
 
         for (var index = snakeLength - 1; index >= 0; index--) {
